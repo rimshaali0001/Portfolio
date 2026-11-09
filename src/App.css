@@ -1,0 +1,11 @@
+body { margin: 0; font-family: system-ui, sans-serif; background: #faf7ff; color: #222; }
+header { display: flex; flex-wrap: wrap; justify-content: space-between; align-items: center; padding: 1rem 1.5rem; background: #6b4fd8; color: #fff; }
+nav a { color: #fff; margin-left: 1rem; text-decoration: none; }
+main { max-width: 900px; margin: auto; padding: 1rem; text-align: center; }
+section { padding: 2rem 0; }
+img { width: 90px; }
+.grid { display: grid; gap: 1rem; grid-template-columns: repeat(auto-fit, minmax(240px, 1fr)); }
+article { background: #fff; padding: 1rem; border-radius: 12px; box-shadow: 0 2px 8px #0002; }
+footer { text-align: center; padding: 1rem; background: #eee; }
+@media (max-width: 600px) { nav a { margin: 0 0.5rem 0 0; } }
+h2 { color: #6b4fd8; }
